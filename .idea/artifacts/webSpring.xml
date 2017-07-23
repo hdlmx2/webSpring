@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="webSpring">
+    <output-path>$PROJECT_DIR$/out/artifacts/webSpring</output-path>
+    <root id="archive" name="webSpring.war">
+      <element id="artifact" artifact-name="webSpring:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-6.0.6" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
