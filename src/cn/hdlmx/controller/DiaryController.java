@@ -1,6 +1,6 @@
 package cn.hdlmx.controller;
 
-import cn.hdlmx.beans.Diary;
+import cn.hdlmx.pojo.Diary;
 import cn.hdlmx.service.DiaryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
@@ -9,7 +9,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
 

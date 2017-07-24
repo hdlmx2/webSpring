@@ -1,6 +1,6 @@
 package cn.hdlmx.dao;
 
-import cn.hdlmx.beans.Diary;
+import cn.hdlmx.pojo.Diary;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Repository;
 

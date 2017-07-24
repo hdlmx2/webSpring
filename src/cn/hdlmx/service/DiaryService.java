@@ -1,6 +1,6 @@
 package cn.hdlmx.service;
 
-import cn.hdlmx.beans.Diary;
+import cn.hdlmx.pojo.Diary;
 import cn.hdlmx.dao.DiaryDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
